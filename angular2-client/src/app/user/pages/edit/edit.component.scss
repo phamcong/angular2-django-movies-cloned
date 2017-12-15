@@ -1,0 +1,14 @@
+@import '../../../../styles/variables.scss';
+
+h1 {
+  text-align: center;
+  color: map-get($colors, text-on-dark);
+}
+
+.cont {
+  form:first-child {
+    padding-bottom: 1em;
+    border-bottom: 2px dotted map-get($colors, dark);
+    margin-bottom: 1em;
+  }
+}
